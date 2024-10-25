@@ -1,0 +1,36 @@
+<UNK> 1.0	sil 
+打 1.0	d a3
+打打 1.0	d a3  d a3
+打开 1.0	d a3  k ai1
+大 1.0	d a4
+档 1.0	d ang4
+机 1.0	j i1
+减 1.0	j ian3
+减小 1.0	j ian3  x iao3
+开 1.0	k ai1
+开机 1.0	k ai1  j i1
+开开 1.0	k ai1  k ai1
+量 1.0	l iang4
+六 1.0	l iou4
+六档 1.0	l iou4  d ang4
+明 1.0	m ing2
+明明 1.0	m ing2  m ing2
+请 1.0	q ing3
+请开 1.0	q ing3  k ai1
+请开机 1.0	q ing3  k ai1  j i1
+树 1.0	sh u4
+树请 1.0	sh u4  q ing3
+树树 1.0	sh u4  sh u4
+同 1.0	t ong2
+同学 1.0	t ong2  x ve2
+小 1.0	x iao3
+小树 1.0	x iao3  sh u4
+小小 1.0	x iao3  x iao3
+学 1.0	x ve2
+音 1.0	ii in1
+音量 1.0	ii in1  l iang4
+增 1.0	z eng1
+增大 1.0	z eng1  d a4
+照 1.0	zh ao4
+照明 1.0	zh ao4  m ing2
+照照 1.0	zh ao4  zh ao4

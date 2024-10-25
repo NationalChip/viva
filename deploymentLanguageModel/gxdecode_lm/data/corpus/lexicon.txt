@@ -1,0 +1,54 @@
+<unk> oov
+奥 aa ao
+闭 b i
+布 b u
+布帘 b u  l ian
+窗 ch uang
+窗帘 ch uang  l ian
+打 d a
+打开 d a  k ai
+二 ee er
+二号 ee er  h ao
+二号布帘 ee er  h ao  b u  l ian
+二号窗帘 ee er  h ao  ch uang  l ian
+二号纱帘 ee er  h ao  sh a  l ian
+关 g uan
+关闭 g uan  b i
+好 h ao
+号 h ao
+开 k ai
+帘 l ian
+六 l iou
+六号 l iou  h ao
+六号布帘 l iou  h ao  b u  l ian
+六号窗帘 l iou  h ao  ch uang  l ian
+六号纱帘 l iou  h ao  sh a  l ian
+你 n i
+你好 n i  h ao
+三 s an
+三号 s an  h ao
+三号布帘 s an  h ao  b u  l ian
+三号窗帘 s an  h ao  ch uang  l ian
+三号纱帘 s an  h ao  sh a  l ian
+纱 sh a
+纱帘 sh a  l ian
+四 s i
+四号 s i  h ao
+四号布帘 s i  h ao  b u  l ian
+四号窗帘 s i  h ao  ch uang  l ian
+四号纱帘 s i  h ao  sh a  l ian
+停 t ing
+五 uu u
+五号 uu u  h ao
+五号布帘 uu u  h ao  b u  l ian
+五号窗帘 uu u  h ao  ch uang  l ian
+五号纱帘 uu u  h ao  sh a  l ian
+小 x iao
+小奥 x iao  aa ao
+一 ii i
+一号 ii i  h ao
+一号布帘 ii i  h ao  b u  l ian
+一号窗帘 ii i  h ao  ch uang  l ian
+一号纱帘 ii i  h ao  sh a  l ian
+暂 z an
+暂停 z an  t ing

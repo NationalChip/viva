@@ -1,0 +1,3 @@
+[submodule "deploymentAcousticModel/gxmodel"]
+	path = deploymentAcousticModel/gxmodel
+	url = git@github.com:NationalChip/gxmodel.git

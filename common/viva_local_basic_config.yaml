@@ -1,0 +1,43 @@
+Basics:
+    SupportsChipsSDKs: #支持芯片和 语音SDK类型，及关系绑定
+        VSP:
+            - GX8008C
+        APUS:
+            - GX8302B
+        LVP:
+            - GX8002D
+            - GX8003A
+    TTSBasicsConfig:
+        SupportsAudioEncoding:
+            - opus
+            - mp3
+            - wav
+
+SdkConfig:                # viva 工具输出内容拷贝 语音 SDK 目录的设置
+  LVP:
+    SaveAcousticModelPath: lvp/vui/kws/models     #声学模型包，存储目录
+    SaveLanguageModelPath: lvp/vui/kws/gxdecoder/model_fst #语言模型包，存储目录
+    SaveAcousticSimulatePath: vpa/lvp/src/vui/kws/models #声学模型包，在模拟器的存储目录
+    SaveLanguageSimulatePath: vpa/lvp/src/vui/kws/gxdecoder/model_fst #语言模型包，在模拟器的存储目录
+    SaveResourcePath: tools/resource  #TTS 语音播报、自学习、串口上报 合成bin存储目录/或者文件 (注意: 如果设置的是 xx.bin 文件，那么最终bin以该文件命名，而不是自动命名)
+  VSP:
+    SaveAcousticModelPath: false
+    SaveLanguageModelPath: dsp/vpa/olab_op/src/rock/kws/gxdecoder/model_fst
+    SaveAcousticSimulatePath: false
+    SaveLanguageSimulatePath: false
+    SaveResourcePath: tools/tts_bin_gen/tts.bin  #TTS 语音播报、自学习、串口上报 合成bin存储目录/或者文件 (注意: 如果设置的是 xx.bin 文件，那么最终bin以该文件命名，而不是自动命名)
+  APUS:
+    SaveAcousticModelPath: subsys/vpa/algorithm_package/olab_lion/src/vui/kws_engine/model/general_asr
+    SaveLanguageModelPath: apps/ai_voice/src/kws/model_fst/
+    SaveAcousticSimulatePath: false
+    SaveLanguageSimulatePath: false
+    SaveResourcePath: false
+
+Logging:
+  output_type: all             #输出模式(all、file、console、false)
+  displayTime: false           #打印或日志显示时间 true/false
+  logFileName: output_run_logs/custom.log
+  LogLevelFile: DEBUG          #记录日志文件的等级
+  MaxLogSize: 1024             #日志文件的最大大小，超大小变分割保存
+  BackupCount: 3               #日志文件保留数量，超出数量便会删除就日志
+  LogLevelConsole: INFO        #打印输出的等级
