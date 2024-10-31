@@ -12,6 +12,11 @@ Basics:
             - opus
             - mp3
             - wav
+    #支持双模型部署模式（大小模型）芯片
+    SupportsDualModelChips:
+        - GX8002D
+
+
 
 SdkConfig:                # viva 工具输出内容拷贝 语音 SDK 目录的设置
   LVP:
@@ -34,7 +39,7 @@ SdkConfig:                # viva 工具输出内容拷贝 语音 SDK 目录的�
     SaveResourcePath: false
 
 Logging:
-  output_type: all             #输出模式(all、file、console、false)
+  output_type: console             #输出模式(all、file、console、false)
   displayTime: false           #打印或日志显示时间 true/false
   logFileName: output_run_logs/custom.log
   LogLevelFile: DEBUG          #记录日志文件的等级
